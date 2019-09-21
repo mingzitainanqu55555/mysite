@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    测试网站|错误
+{% endblock %}
+
+
+{% block nav_home_active %}
+    active
+{%endblock%}
+{% block nav_blog_active %}
+
+{%endblock%}
+{% block content %}
+    {{ message }}<a href="{{ redirect_to }}">返回</a>
+{% endblock %}
